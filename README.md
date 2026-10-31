@@ -1,15 +1,16 @@
-# NQ → IC Markets USTEC Hedge Calculator
+# Futures → IC Markets Hedge Calculator
+
+Supports:
+- NQ → IC Markets USTEC
+- ES → IC Markets US500
+- GC → IC Markets XAUUSD
 
 Inputs:
-- NQ contracts
+- Futures contracts
 - Futures risk ($)
-- USTEC hedge risk ($)
+- Hedge risk ($)
 
-Output:
-- Required IC Markets USTEC lot size
-
-Run:
-```bash
-pip install -r requirements.txt
-streamlit run app.py
-```
+Outputs:
+- Required IC Markets lot size
+- Futures stop distance
+- Raw lot calculation
